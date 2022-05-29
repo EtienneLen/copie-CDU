@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+
+
+}
+
+ul, li {
+    list-style-type: none;
+    color: white;
+    opacity: 1;
+    display: flex;
+    flex-direction: row; 
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+
+
+li:hover{
+    color: yellow;
+}
+
+#mitglied {
+    height: 20px;
+    width: 100%;
+    background-color: #32302E;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#mitglied > p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#menucdu{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+
+}
+
+
+video{
+    position: relative;
+    top: -50px;
+    width: 100%;
+
+}
+
+#joinus {
+
+    padding: 50px;
+
+}
+
+#articleSum {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #E7E7E7;
+}
+
+.articleType {
+
+    width: 45%;  
+    background-color: white;
+    margin: 5px;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+button {
+    height: 40px;
+    width: 70px;
+    background-color: #BB232A;
+    border: none;
+    color: white;
+    border-radius: 30px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer > ul ,li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+hr{
+    width: 50px;
+    color: yellow;
+}
